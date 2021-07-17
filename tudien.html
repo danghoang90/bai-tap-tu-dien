@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let dich = prompt("Nhập từ muốn tìm kiếm :");
+  let change = dich ;
+  let Eng = ["family" , "love" , "money" , "car"];
+  let Vie = ["gia đình" , "tình yêu" , "tiền" , "ô tô"];
+  for (let x = 0; x < Eng.length ; x++){
+      if (Eng[x] == change ){
+          alert( "Tiếng Việt có nghĩa là:" +Vie[x]);
+          break;
+      }
+  }alert("không tim thấy kết quả");
+</script>
+</body>
+</html>
